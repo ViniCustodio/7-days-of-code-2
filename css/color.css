@@ -1,0 +1,9 @@
+:root{
+    --fundo: linear-gradient(90deg, rgba(248,244,255,1) 44%, rgba(239,240,244,1) 91%);
+    --branco: #FFFFFF;
+    --cinza: #A3A3A3;
+    --cinza-claro: #F6F6F6;
+    --amarelo: #FFB050;
+    --preto: #000000;
+    --azul: #4894FF;
+}

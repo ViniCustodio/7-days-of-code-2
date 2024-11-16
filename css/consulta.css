@@ -1,0 +1,158 @@
+.consultas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0 8rem 0;
+}
+
+.consultas__hoje{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.agenda{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.consultas__dia{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .5rem 0 .5rem 0;
+}
+
+.consulta__agenda{
+    background-color: var(--branco);
+    border-radius: .5rem;
+}
+
+.consulta__agenda-perfil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1rem 1rem 1rem;
+}
+
+.agenda-perfil{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.perfil-foto-agenda{
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.agenda-perfil-dados{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.agenda-perfil-nome{
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.agenda-perfil-opcoes{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.agenda-perfil-mensagem{
+    display: flex;
+    align-items: center;
+    background-color: var(--cinza-claro);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.linha{
+    border: solid 0.5px var(--cinza-claro);
+}
+
+.consulta__agenda-tipo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 16px;
+    text-align: start;
+}
+
+.consulta__agenda-horario{
+    font-size: .75rem;
+    font-weight: 500;
+    padding: 0 0 0;
+}
+
+.consulta__agenda-opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.125rem;
+}
+
+.btn__ligar{
+    background-color: var(--amarelo);
+    border: none;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: .5rem;
+    font-size: .875rem;
+    font-weight: 500;
+    color: var(--branco);
+}
+
+.btn__audio{
+    color: var(--preto);
+    background-color: var(--branco);
+    border: solid 2px var(--cinza-claro);
+}
+
+.btn__endereço{
+    width: 100%;
+    background-color: var(--azul);
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+
+    .agenda{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .consulta__agenda{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .container{
+        margin: 0 0 0 20%;
+    }
+
+    .consultas__hoje{
+        display: flex;
+        width: 95%;
+        margin: auto;
+    }
+
+
+    .consulta__agenda{
+        width: 30%;
+    }
+
+    .consultas__dia{
+        padding-left: 3%;
+    }
+
+
+}

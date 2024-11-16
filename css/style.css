@@ -1,0 +1,13 @@
+@import url("header.css");
+@import url("reset.css");
+@import url("color.css");
+@import url("conteudo.css");
+@import url("perfil.css");
+@import url("font.css");
+@import url("consulta.css");
+
+
+body{
+    background: var(--fundo);
+    font-family: var(--fonte-principal);
+}
